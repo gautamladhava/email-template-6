@@ -1,0 +1,355 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+tbody {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: Verdana, sans-serif;
+    background-color: #f7f7f7;
+}
+
+a {
+    cursor: pointer;
+}
+
+table,
+table th,
+table td {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border: 0;
+    border-spacing: 0;
+}
+
+img {
+    display: block;
+}
+
+
+a {
+    text-decoration: none
+}
+
+
+
+.bg-table {
+    max-width: 700px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.sm-table {
+    max-width: 540px;
+    width: 100%;
+}
+
+.full-table {
+    width: 100% !important;
+}
+
+.right_design {
+    background-image: url(http://202.131.123.12:8014/team8/comicave-email/rightside-top.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 180px;
+}
+
+.left_design {
+    width: 100% !important;
+    background-image: url(http://202.131.123.12:8014/team8/comicave-email/left_design.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 98px;
+}
+
+.footer-logo {
+    max-width: 370px;
+}
+
+.bg-text {
+    background-color: transparent;
+    width: 100%;
+    text-transform: uppercase;
+    color: #a746f3;
+    font-weight: 800;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    filter: drop-shadow(-3.2px 2.1px 0px rgba(0, 0, 0, 0.88));
+}
+
+.bg-text.pickup {
+    font-size: 46px;
+}
+
+.bg-text.deliver {
+    font-size: 55px;
+}
+
+.width-100 {
+    background-color: transparent;
+    width: 100%;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.custom-font {
+    color: #373737;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.d-inline {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.v-line {
+    background-color: transparent;
+    width: 100%;
+    height: 1px;
+    background-color: #373737;
+
+}
+
+.t-upper-case {
+    text-transform: uppercase;
+}
+
+.v-aling-middel {
+    vertical-align: middle;
+}
+
+.line-h {
+    line-height: 1.8;
+}
+
+.avatar {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.blue-link {
+    text-decoration: underline;
+    line-height: 1.5;
+    color: #0000EE;
+    border-bottom: 1px solid #0000EE;
+}
+
+.m-3 {
+    margin: 0 3px;
+}
+
+.m-1 {
+    margin: 0 1px;
+}
+
+.w-15 {
+    width: 15px;
+}
+
+.w-20 {
+    width: 20px;
+}
+
+.w-30 {
+    width: 30px;
+}
+
+.w-154 {
+    width: 154px;
+}
+
+.m-w-100 {
+    max-width: 100%;
+}
+
+.h-60 {
+    height: 60px;
+}
+
+.h-50 {
+    height: 50px;
+}
+
+.h-40 {
+    height: 40px;
+}
+
+.h-35 {
+    height: 35px;
+}
+
+.h-33 {
+    height: 33px;
+}
+
+.h-30 {
+    height: 30px;
+}
+
+.h-25 {
+    height: 25px;
+}
+
+
+.h-20 {
+    height: 20px;
+}
+
+.h-15 {
+    height: 15px;
+}
+
+.h-12 {
+    height: 12px;
+}
+
+.h-10 {
+    height: 10px;
+}
+
+.h-8 {
+    height: 8px;
+}
+
+.h-6 {
+    height: 6px;
+}
+
+.h-3 {
+    height: 3px;
+}
+
+.m-w-540 {
+    max-width: 540px;
+}
+
+.m-w-420 {
+    text-align: center;
+    font-weight: 500;
+    max-width: 420px;
+}
+
+.m-w-345 {
+    max-width: 345px;
+}
+
+.m-w-250 {
+    min-width: 250px;
+}
+
+.m-w-62 {
+    max-width: 62px;
+    width: 62px;
+    vertical-align: top;
+}
+
+.f-bold {
+    font-weight: bold;
+}
+
+.f-46 {
+    font-size: 46px;
+}
+.f-55{
+    font-size: 55px;
+}
+
+.f-27 {
+    font-size: 27px;
+}
+
+.f-18 {
+    font-size: 18px;
+}
+
+.f-17 {
+    font-size: 17px;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+.f-13 {
+    font-size: 13px;
+}
+
+.f-12 {
+    font-size: 12px;
+}
+
+.f-10 {
+    font-size: 10px;
+}
+
+.f-9 {
+    font-size: 9px;
+}
+
+@media (max-width:767px) {
+    .left_design {
+        background-size: 45px !important;
+    }
+
+    .right_design {
+        background-size: 80px !important;
+    }
+
+    .bg-text {
+        font-size: 35px !important;
+    }
+    .bg-text.pickup {
+         font-size: 35px !important;
+    }
+    
+    .bg-text.deliver {
+         font-size: 35px !important;
+    }
+    .f-46 {
+         font-size: 35px !important;
+    }
+    .f-55{
+         font-size: 35px !important;
+    }
+
+    .footer-logo {
+        max-width: 230px !important;
+    }
+
+    .bottom-bg-text {
+        font-size: 13px !important;
+    }
+
+    .header-logo {
+        margin: auto !important;
+    }
+}
